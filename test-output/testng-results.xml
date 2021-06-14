@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17409" started-at="2021-06-14T18:27:15Z" finished-at="2021-06-14T18:27:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17409" started-at="2021-06-14T18:27:15Z" finished-at="2021-06-14T18:27:33Z">
+      <class name="tests.DataDrivenTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.DataDrivenTest@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="6029" started-at="2021-06-14T19:27:17Z" finished-at="2021-06-14T19:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fbLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DataDrivenTest@5e3a8624]" name="fbLoginLogout" duration-ms="10045" started-at="2021-06-14T19:27:23Z" data-provider="testdataset" finished-at="2021-06-14T19:27:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testemailtwo@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IND@3244555a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testemailone@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IND@1234567890a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testemailone@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[IND@319a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbLoginLogout -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:tests.DataDrivenTest@5e3a8624]" name="aftermethod" is-config="true" duration-ms="105" started-at="2021-06-14T19:27:33Z" finished-at="2021-06-14T19:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- tests.DataDrivenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
